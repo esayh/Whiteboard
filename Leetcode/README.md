@@ -1,1 +1,1 @@
-<h1 id='leetcode'><strong>LeetCode</strong></h1>
+<h1 id='leetcode'><strong>Leetcode</strong></h1>
