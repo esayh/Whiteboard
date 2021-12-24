@@ -6,9 +6,5 @@
  */
 
 function greet(name) {
-	if (name === 'Johnny') {
-		return 'Hello, my love!';
-	} else {
-		return 'Hello, ' + name + '!';
-	}
+	return 'Hello, ' + (name == 'Johnny' ? 'my love' : name) + '!';
 }
