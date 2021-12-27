@@ -12,7 +12,6 @@ For example, 121 is a palindrome while 123 is not.
  */
 var isPalindrome = function (x) {
 	let int = x.toString().split('').reverse().join('');
-	console.log();
 	if (x === Number(int)) {
 		return true;
 	} else {
