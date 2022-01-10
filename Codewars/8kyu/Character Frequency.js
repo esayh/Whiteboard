@@ -22,5 +22,3 @@ function charFreq(message) {
 	}
 	return obj;
 }
-
-console.log(charFreq('I like cats'));
