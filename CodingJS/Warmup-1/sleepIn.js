@@ -4,9 +4,9 @@
 
 Examples
 
-sleepIn(true, true) → true
-sleepIn(true, false) → false
-sleepIn(false, true) → true
+	sleepIn(true, true) → true
+	sleepIn(true, false) → false
+	sleepIn(false, true) → true
  */
 
 function sleepIn(weekday, vacation) {

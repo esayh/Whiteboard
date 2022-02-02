@@ -3,9 +3,9 @@
 
 Examples
 
-diff21(19) → 2
-diff21(10) → 11
-diff21(21) → 0
+	diff21(19) → 2
+	diff21(10) → 11
+	diff21(21) → 0
  */
 
 function diff21(n) {
