@@ -14,7 +14,3 @@ function in1020(a, b) {
 	}
 	return false;
 }
-
-console.log(in1020(12, 99));
-console.log(in1020(21, 12));
-console.log(in1020(8, 99));
