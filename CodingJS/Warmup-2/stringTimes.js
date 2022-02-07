@@ -12,7 +12,3 @@ Examples
 function stringTimes(str, n) {
 	return str.repeat(n);
 }
-
-console.log(stringTimes('Hi', 2));
-console.log(stringTimes('Hi', 3));
-console.log(stringTimes('Hi', 1));
