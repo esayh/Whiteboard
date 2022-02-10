@@ -16,7 +16,3 @@ function stringBits(str) {
 	}
 	return s;
 }
-
-console.log(stringBits('Hello'));
-console.log(stringBits('Hi'));
-console.log(stringBits('Heeololeo'));
