@@ -20,11 +20,11 @@
   const arr = []
   
   for(let i = 0; i < matrix[0].length; i++) {
-    arr[i] = []
+		arr[i] = []
     
     for(let j = 0; j < matrix.length; j++) {
       arr[i][j] = matrix[j][i]
     }
   } 
   return arr
-}
+	}
