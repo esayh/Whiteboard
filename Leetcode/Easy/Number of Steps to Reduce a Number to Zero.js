@@ -31,7 +31,7 @@ Input: num = 123
 Output: 12
 */
 
-/**
+/** Solution #1
  * @param {number} num
  * @return {number}
  */
@@ -48,5 +48,22 @@ Output: 12
 			}
 	}
 	return count
+};
+
+/** Solution #2
+ * @param {number} num
+ * @return {number}
+ */
+ var numberOfSteps = function(num) {
+	
+	let steps = 0
+
+	while(num !== 0) {
+		
+		num % 2 === 0 ? num = num / 2 : num -= 1
+
+		steps += 1
+	}
+	return steps
 };
 
